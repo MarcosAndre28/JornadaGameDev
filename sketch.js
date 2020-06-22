@@ -6,6 +6,6 @@ function setup(){
 function draw(){
 background(200);
 
-line(10,10,100,100);
+
 console.log('draw');
 }
