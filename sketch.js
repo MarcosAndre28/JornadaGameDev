@@ -1,12 +1,11 @@
 function setup(){
 
-    creatCanvas(windowWidth, WindowHeiht);
-    console.log('setup');
+    creatCanvas(400, 400);
+    
 }
 function draw(){
-background(200);
-Circle(0,0,200);
-console.log('draw');
+background(400);
 
+line(10,10,100,100);
 
 }
