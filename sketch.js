@@ -1,11 +1,16 @@
-function setup(){
 
-    createCanvas(200,200);
-    console.log('setup');
+let imagemCenario;
+
+
+function preload() {
+  imagemCenario = loadImage('assets/imagens/cenario/floresta.png'); 
 }
-function draw(){
-background(200);
 
 
-console.log('draw');
+function setup() {
+  createCanvas( windowWidth, windowHeight);
+}
+
+function draw() {
+  background(imagemCenario);
 }
