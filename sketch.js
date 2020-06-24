@@ -42,7 +42,7 @@ function preload() {
 function setup() {
  
     createCanvas( windowWidth, windowHeight);
-    cenario = new Cenario(imagemCenario,5);
+    cenario = new Cenario(imagemCenario,3);
     personagem = new Personagem(imagemPersonagem);
     inimigo = new Inimigo(matrizInimigo,imagemInimigo,width-52,52,52,104,104);
    frameRate(26);

@@ -20,7 +20,7 @@ this.matriz = [
 [660,810],
 
 
-]
+];
 this.frameAtual = 0
 
 }
