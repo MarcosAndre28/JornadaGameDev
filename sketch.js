@@ -30,7 +30,7 @@ const matrizInimigo = [
   [104, 626],
   [208, 626],
   [312, 626],
-]
+];
 
 function preload() {
   imagemCenario = loadImage('assets/imagens/cenario/floresta2.png'); 
